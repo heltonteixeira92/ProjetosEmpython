@@ -13,6 +13,7 @@ class ChuteONumero:
     def Iniciar(self):
         self.GerarNumeroAleatorio()
         self.PedirValorAleatorio()
+        
         try:
             while self.tentar_novamente == True:
                 if int(self.Valor_do_chute) > self.valor_aleatorio:
